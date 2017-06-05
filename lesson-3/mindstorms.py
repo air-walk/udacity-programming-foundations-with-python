@@ -18,18 +18,10 @@ def draw_art():
     brad.shape("circle")
     brad.color("black")
     brad.speed(3)
-    draw_square(brad)
 
-    angie = turtle.Turtle()
-    angie.shape("arrow")
-    angie.color("blue")
-    angie.circle(100)
-
-    bulla = turtle.Turtle()
-    bulla.shape("turtle")
-    bulla.color("green")
-    bulla.speed(10)
-    draw_triangle(bulla)
+    for i in range(0, 36):
+        draw_square(brad)
+        brad.right(10)
 
     window.exitonclick()
 
