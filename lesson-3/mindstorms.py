@@ -20,10 +20,25 @@ def draw_circle():
     angie.color("blue")
     angie.circle(100)
 
+def draw_triangle():
+    bulla = turtle.Turtle()
+    bulla.shape("turtle")
+    bulla.color("green")
+    bulla.speed(10)
+
+    i     = 0
+    times = 3
+
+    while(i < times):
+        bulla.forward(100)
+        bulla.left(120)
+        i = i + 1
+    
 window = turtle.Screen()
 window.bgcolor("red")
 
 draw_square()
 draw_circle()
+draw_triangle()
 
 window.exitonclick()
