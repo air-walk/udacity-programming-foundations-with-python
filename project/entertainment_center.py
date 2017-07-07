@@ -2,6 +2,7 @@ import fresh_tomatoes
 import media
 
 
+# Instantiating some objects of type 'movie' for my some of my favorite movies
 toy_story = media.Movie(
             "Toy Story",
             "A story of a boy and his toys that come to life",
@@ -38,6 +39,8 @@ hunger_games = media.Movie(
  "https://upload.wikimedia.org/wikipedia/en/4/4b/Hunger_Games_Film_Poster.jpg",
  "https://www.youtube.com/watch?v=mfmrPu43DF8")
 
+# Shoving all the movie instances into a list, and then processing them to
+# generate a web page for their trailers
 movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris,
           hunger_games]
 fresh_tomatoes.open_movies_page(movies)
