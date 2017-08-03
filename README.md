@@ -1,5 +1,5 @@
 # Udacity - Programming Foundations with Python
-This repo contains the **Movie Trailer Website** project inside the `project/` directory. Here are the instructions to get the project up and running on your machine.
+This repo contains solved exercises for Udacity's [Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036) course. It also contains the **Movie Trailer Website** project inside the `project/` directory. Here are the instructions to get the project up and running on your machine.
 
 ## Prerequisites:
 * Python 2.7
